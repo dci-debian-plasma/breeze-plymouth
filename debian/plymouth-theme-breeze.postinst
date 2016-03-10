@@ -17,6 +17,10 @@ case "$1" in
                 /lib/plymouth/themes/breeze/breeze.plymouth 160 \
             --slave /lib/plymouth/themes/default.grub default.plymouth.grub \
                 /lib/plymouth/themes/breeze/breeze.grub || error "Failed to update-alternatives"
+        update-alternatives \
+            --install /lib/plymouth/themes/text.plymouth text.plymouth \
+              /lib/plymouth/themes/breeze-text/breeze-text.plymouth 160 \
+	      || error "Failed to update-alternatives text.plymouth"
 
         if which update-initramfs >/dev/null 2>&1; then
             update-initramfs -u || error "Failed to update-initramfs"
