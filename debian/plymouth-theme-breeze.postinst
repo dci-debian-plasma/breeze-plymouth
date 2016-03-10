@@ -1,0 +1,39 @@
+#!/bin/sh -e
+
+#DEBHELPER#
+
+error()
+{
+    RET=$?
+    MSG=$1
+    echo "E: $MSG";
+    exit $RET
+}
+
+case "$1" in
+    configure)
+        update-alternatives \
+            --install /lib/plymouth/themes/default.plymouth default.plymouth \
+                /lib/plymouth/themes/breeze/breeze.plymouth 160 \
+            --slave /lib/plymouth/themes/default.grub default.plymouth.grub \
+                /lib/plymouth/themes/breeze/breeze.grub || error "Failed to update-alternatives"
+
+        if which update-initramfs >/dev/null 2>&1; then
+            update-initramfs -u || error "Failed to update-initramfs"
+        fi
+
+        if [ -e /boot/grub/grub.cfg ] && which update-grub2 >/dev/null 2>&1; then
+            update-grub2 || error "Failed to update-grub2"
+        fi
+        ;;
+
+    abort-upgrade|abort-deconfigure|abort-remove)
+        ;;
+
+    *)
+        echo "$0 called with unknown argument \`$1'" 1>&2
+        exit 1
+        ;;
+esac
+
+exit 0
