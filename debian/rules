@@ -1,12 +1,6 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
 
-DEB_CFLAGS_MAINT_APPEND  := -Werror -Wno-error=unused-result \
-        -Wno-error=sign-compare
-
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
-
-override_dh_auto_configure:
-	$(overridden_command) -- -DCMAKE_EXE_LINKER_FLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,--as-needed'
 
 .PHONY: override_dh_makeshlibs
