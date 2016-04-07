@@ -10,17 +10,32 @@ error()
     exit $RET
 }
 
+if [ -e /usr/share/plymouth/themes/ ]; then
+    THEMEDIR=/usr/share/plymouth/themes/
+else
+    THEMEDIR=/lib/plymouth/themes/
+fi
+
 case "$1" in
     configure)
+        if [ -e /usr/share/plymouth/themes/ ]; then
+            #plymouth themes moved here in xenial
+            THEMEDIR=/usr/share/plymouth/themes/
+            update-alternatives --remove default.plymouth /lib/plymouth/themes/breeze/breeze.plymouth || true
+            update-alternatives --remove text.plymouth /lib/plymouth/themes/breeze-text/breeze-text.plymouth || true
+        else
+            THEMEDIR=/lib/plymouth/themes/
+        fi
+
         update-alternatives \
-            --install /lib/plymouth/themes/default.plymouth default.plymouth \
-                /lib/plymouth/themes/breeze/breeze.plymouth 160 \
-            --slave /lib/plymouth/themes/default.grub default.plymouth.grub \
-                /lib/plymouth/themes/breeze/breeze.grub || error "Failed to update-alternatives"
+            --install ${THEMEDIR}default.plymouth default.plymouth \
+            ${THEMEDIR}breeze/breeze.plymouth 160 \
+            --slave ${THEMEDIR}default.grub default.plymouth.grub \
+            ${THEMEDIR}breeze/breeze.grub || error "Failed to update-alternatives"
         update-alternatives \
-            --install /lib/plymouth/themes/text.plymouth text.plymouth \
-              /lib/plymouth/themes/breeze-text/breeze-text.plymouth 160 \
-	      || error "Failed to update-alternatives text.plymouth"
+            --install ${THEMEDIR}text.plymouth text.plymouth \
+            ${THEMEDIR}breeze-text/breeze-text.plymouth 160 \
+            || error "Failed to update-alternatives text.plymouth"
 
         if which update-initramfs >/dev/null 2>&1; then
             update-initramfs -u || error "Failed to update-initramfs"
