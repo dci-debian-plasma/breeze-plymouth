@@ -1,7 +1,7 @@
-Index: breeze-plymouth-5.6.3/breeze/breeze.script
-===================================================================
---- breeze-plymouth-5.6.3.orig/breeze/breeze.script
-+++ breeze-plymouth-5.6.3/breeze/breeze.script
+diff --git a/breeze/breeze.script b/breeze/breeze.script
+index d0b91d0..44d7fa3 100644
+--- a/breeze/breeze.script
++++ b/breeze/breeze.script
 @@ -32,18 +32,18 @@
  
  // -------------------------------- Assets ---------------------------------- //
@@ -13,13 +13,13 @@ Index: breeze-plymouth-5.6.3/breeze/breeze.script
  
  global.assets = [];
  if (Window.GetBitsPerPixel() == 4) {
--    assets.logo          = "images/16bit/plasma.logo.png";
+-    assets.logo          = "images/16bit/kde.logo.png";
 +    assets.logo          = "images/16bit/neon.logo.png";
      assets.text_input    = "images/16bit/text-input.png";
  
      assets.spinner_base  = "images/16bit/spinner";
  } else {
--    assets.logo          = "images/plasma.logo.png";
+-    assets.logo          = "images/kde.logo.png";
 +    assets.logo          = "images/neon.logo.png";
      assets.text_input    = "images/text-input.png";
  
