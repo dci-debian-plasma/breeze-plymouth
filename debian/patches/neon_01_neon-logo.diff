@@ -7,7 +7,7 @@ index d0b91d0..44d7fa3 100644
  // -------------------------------- Assets ---------------------------------- //
  
 -global.title.text = "Plasma 5.6";
-+global.title.text = "KDE neon 5.6";
++global.title.text = "KDE neon Developer Edition (stable branches)";
  global.defaults.font.default = "Noto Sans 12";
  global.defaults.font.title = "Noto Sans 14";
  
