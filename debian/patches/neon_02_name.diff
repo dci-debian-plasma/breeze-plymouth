@@ -1,0 +1,13 @@
+Index: breeze-plymouth/breeze/breeze.script
+===================================================================
+--- breeze-plymouth.orig/breeze/breeze.script
++++ breeze-plymouth/breeze/breeze.script
+@@ -32,7 +32,7 @@
+ 
+ // -------------------------------- Assets ---------------------------------- //
+ 
+-global.title.text = "Plasma 5.6";
++global.title.text = "KDE neon 5.6";
+ global.defaults.font.default = "Noto Sans 12";
+ global.defaults.font.title = "Noto Sans 14";
+ 
