@@ -32,10 +32,9 @@ Index: breeze-plymouth/breeze-text/breeze-text.plymouth.cmake
 ===================================================================
 --- breeze-plymouth.orig/breeze-text/breeze-text.plymouth.cmake
 +++ breeze-plymouth/breeze-text/breeze-text.plymouth.cmake
-@@ -4,4 +4,5 @@ Description=A Breeze splash for text mod
+@@ -4,4 +4,4 @@ Description=A Breeze splash for text mod
  ModuleName=breeze-text
  
  [breeze-text]
 -title=Plasma @PROJECT_VERSION@
 +title=KDE neon @PROJECT_VERSION@
-+black=0x2980B9 # This is the background
