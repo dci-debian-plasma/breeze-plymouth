@@ -1,9 +1,14 @@
-breeze-plymouth (5.6.4-1~) UNRELEASED; urgency=medium
+breeze-plymouth (5.6.4-2~~1.gbp582490) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @582490f8caa182c3de34252c9adb27bbc36434b3 **
 
   [ Jonathan Riddell ]
   * Initial release.
+  * add text.plymouth alternative
+  * allow for new plymouth theme install dir in xenial
 
   [ Maximiliano Curia ]
   * New upstream release (5.6.4).
+  * Update pre/post inst scripts.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 17 May 2016 16:47:35 +0200
+ -- Jonathan Riddell <jr@jriddell.org>  Sun, 05 Jun 2016 13:53:13 +0200
