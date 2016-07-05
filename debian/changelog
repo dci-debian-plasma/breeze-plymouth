@@ -1,15 +1,16 @@
-breeze-plymouth (5.6.5-1~1.gbp96b26b) UNRELEASED; urgency=medium
+breeze-plymouth (5.7.0-1~1.gbp4c7f30) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @96b26bdb8106345c949d9b3a8ae1adeed4128bea **
+  ** SNAPSHOT build @4c7f30caa6afc7cbea3abd43b8cee861b692bec7 **
 
   [ Jonathan Riddell ]
   * Initial release.
   * add text.plymouth alternative
   * allow for new plymouth theme install dir in xenial
   * UNRELEASED
+  * UNRELEASED
 
   [ Maximiliano Curia ]
   * New upstream release (5.6.4).
   * Update pre/post inst scripts.
 
- -- Jonathan Riddell <jenkins@gnuservers.com.ar>  Tue, 14 Jun 2016 20:53:08 +0200
+ -- Jonathan Riddell <jenkins@gnuservers.com.ar>  Tue, 05 Jul 2016 14:53:09 +0200
