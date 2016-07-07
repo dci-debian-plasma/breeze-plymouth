@@ -1,0 +1,40 @@
+From a5909e1cd59f59254898421df2eb66d4fe10e393 Mon Sep 17 00:00:00 2001
+From: Harald Sitter <sitter@kde.org>
+Date: Thu, 7 Jul 2016 10:24:37 +0200
+Subject: [PATCH] fix spinner height and y to resolve broken layout chain
+
+everything lays out relative to the spinner/logo, when changing to in-cpu
+rotation the spinner code was not correctly updated to retain working
+y and height calculations after changes to internal data structures.
+this resulted in all objects layed out relative to the spinner to not
+be drawn as their position was NaN.
+
+plymouth could really benefit from openqa tests :/
+
+BUG: 365169
+FIXED-IN: 5.7.1
+---
+ breeze/breeze.script.cmake | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/breeze/breeze.script.cmake b/breeze/breeze.script.cmake
+index c80087f..2f8f79c 100644
+--- a/breeze/breeze.script.cmake
++++ b/breeze/breeze.script.cmake
+@@ -339,11 +339,11 @@ Spinner.Animate = fun(time) {
+ };
+ 
+ Spinner.GetY = fun() {
+-    return this[0].GetY();
++    return this.sprite.GetY();
+ };
+ 
+ Spinner.GetHeight = fun() {
+-    return this[0].height;
++    return this.sprite.height;
+ };
+ 
+ global.spin = Spinner();
+-- 
+2.7.4
+
