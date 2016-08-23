@@ -4,7 +4,7 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DDISTRO_NAME="KDE neon" -DDISTRO_LOGO=neon -DBACKGROUND_TOP_COLOR=neon_green -DBACKGROUND_BOTTOM_COLOR=neon_blue
+	$(overridden_command) -- -DDISTRO_NAME="KDE neon" -DDISTRO_LOGO=neon
 
 
 .PHONY: override_dh_makeshlibs
