@@ -1,3 +1,9 @@
+breeze-plymouth (5.8.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 30 Sep 2016 11:29:16 +0000
+
 breeze-plymouth (5.7.5-0neon) xenial; urgency=medium
 
   * New release
