@@ -1,6 +1,6 @@
-breeze-plymouth (5.7.5-1~1.gbp93ed66) UNRELEASED; urgency=medium
+breeze-plymouth (5.8.0-1~1.gbp066ce3) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @93ed66873d67b234c17f05defccdb6addcbeddb0 **
+  ** SNAPSHOT build @066ce344966e2d07bc6cc47c8fd9fd29fe09bc69 **
 
   [ Jonathan Riddell ]
   * Initial release.
@@ -13,9 +13,10 @@ breeze-plymouth (5.7.5-1~1.gbp93ed66) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
   [ Maximiliano Curia ]
   * New upstream release (5.6.4).
   * Update pre/post inst scripts.
 
- -- Jonathan Riddell <jenkins@gnuservers.com.ar>  Tue, 13 Sep 2016 20:53:38 +0200
+ -- Jonathan Riddell <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:38:50 +0200
