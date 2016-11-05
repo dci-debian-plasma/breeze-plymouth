@@ -1,6 +1,6 @@
-breeze-plymouth (5.8.2-1~1.gbp05320a) UNRELEASED; urgency=medium
+breeze-plymouth (5.8.3-1~1.gbp9e634b) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @05320aed719e2281c9ae4534408a982b6dea60cf **
+  ** SNAPSHOT build @9e634be86b783cdd29d06cc7905e52f6797b39bc **
 
   [ Jonathan Riddell ]
   * Initial release.
@@ -21,5 +21,6 @@ breeze-plymouth (5.8.2-1~1.gbp05320a) UNRELEASED; urgency=medium
   * Drop dbus-x11 build dependency
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 18 Oct 2016 20:53:24 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Sat, 05 Nov 2016 20:53:09 +0100
