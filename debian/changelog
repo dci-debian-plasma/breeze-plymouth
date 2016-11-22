@@ -1,6 +1,6 @@
-breeze-plymouth (5.8.3-1~1.gbp9e634b) UNRELEASED; urgency=medium
+breeze-plymouth (5.8.4-1~1.gbpa9c08c) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9e634be86b783cdd29d06cc7905e52f6797b39bc **
+  ** SNAPSHOT build @a9c08c3d53946186ed5aa46b4a2380317057a1d8 **
 
   [ Jonathan Riddell ]
   * Initial release.
@@ -22,5 +22,6 @@ breeze-plymouth (5.8.3-1~1.gbp9e634b) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Sat, 05 Nov 2016 20:53:09 +0100
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 22 Nov 2016 14:53:10 +0100
