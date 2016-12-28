@@ -1,4 +1,4 @@
-breeze-plymouth (5.8.4-1~1.gbpa9c08c) UNRELEASED; urgency=medium
+breeze-plymouth (5.8.5-1~) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @a9c08c3d53946186ed5aa46b4a2380317057a1d8 **
 
@@ -23,5 +23,6 @@ breeze-plymouth (5.8.4-1~1.gbpa9c08c) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * New upstream release (5.8.5).
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 22 Nov 2016 14:53:10 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 28 Dec 2016 15:23:46 +0100
