@@ -1,28 +1,14 @@
 breeze-plymouth (5.8.5-1) experimental; urgency=medium
 
-  ** SNAPSHOT build @a9c08c3d53946186ed5aa46b4a2380317057a1d8 **
-
   [ Jonathan Riddell ]
   * Initial release.
   * add text.plymouth alternative
   * allow for new plymouth theme install dir in xenial
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
 
   [ Maximiliano Curia ]
   * New upstream release (5.6.4).
   * Update pre/post inst scripts.
   * Drop dbus-x11 build dependency
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
   * New upstream release (5.8.5).
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 30 Dec 2016 18:46:12 +0100
