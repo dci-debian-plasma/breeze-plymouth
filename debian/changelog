@@ -1,3 +1,10 @@
+breeze-plymouth (5.10.5-2) sid; urgency=medium
+
+  * Bump Standards-Version to 4.1.0.
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Sep 2017 20:11:18 +0200
+
 breeze-plymouth (5.10.5-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
