@@ -17,7 +17,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/breeze-plymouth.git
 
 Package: plymouth-theme-breeze
 Architecture: any
-Depends: plymouth, plymouth-label, ${misc:Depends}, ${shlibs:Depends}
+Depends: plymouth, plymouth-label, udev, ${misc:Depends}, ${shlibs:Depends}
 Description: Breeze theme for Plymouth
  Breeze theme for Plymouth system boot splash to fit in with KDE
  Plasma's themeing.
