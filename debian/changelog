@@ -1,81 +1,22 @@
-breeze-plymouth (5.10.5-0neon) xenial; urgency=medium
+breeze-plymouth (5.11.2-0neon) xenial; urgency=medium
 
   * New release
 
- -- Neon CI <neon@kde.org>  Wed, 23 Aug 2017 09:54:35 +0000
+ -- Neon CI <neon@kde.org>  Tue, 24 Oct 2017 16:31:04 +0000
 
-breeze-plymouth (5.10.4-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 18 Jul 2017 13:51:28 +0000
-
-breeze-plymouth (5.10.3-0neon) xenial; urgency=medium
+breeze-plymouth (5.11.1-0neon) xenial; urgency=medium
 
   * New release
 
- -- Neon CI <neon@kde.org>  Tue, 27 Jun 2017 12:10:23 +0000
+ -- Neon CI <neon@kde.org>  Tue, 17 Oct 2017 16:55:37 +0000
 
-breeze-plymouth (5.10.2-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 13 Jun 2017 22:13:38 +0000
-
-breeze-plymouth (5.10.1-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 06 Jun 2017 17:31:20 +0000
-
-breeze-plymouth (5.10.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Fri, 26 May 2017 15:42:47 +0000
-
-breeze-plymouth (5.9.5-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 25 Apr 2017 15:42:29 +0000
-
-breeze-plymouth (5.9.4-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 21 Mar 2017 15:01:52 +0000
-
-breeze-plymouth (5.9.3-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 28 Feb 2017 16:27:11 +0000
-
-breeze-plymouth (5.9.2-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 14 Feb 2017 17:37:28 +0000
-
-breeze-plymouth (5.9.1-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 07 Feb 2017 15:08:46 +0000
-
-breeze-plymouth (5.9.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Mon, 30 Jan 2017 11:50:17 +0000
-
-breeze-plymouth (5.8.6-0neon) UNRELEASED; urgency=medium
+breeze-plymouth (5.8.7-0neon) UNRELEASED; urgency=medium
 
   * New release
   * New Plasma LTS release
+  * New LTS release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 23 May 2017 14:51:38 +0100
+ -- Jonathan Riddell <jr@jriddell.org>  Wed, 25 Oct 2017 14:55:39 +0100
 
 breeze-plymouth (5.8.6-0neon) xenial; urgency=medium
 
