@@ -1,3 +1,9 @@
+breeze-plymouth (5.11.4-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 28 Nov 2017 16:59:24 +0000
+
 breeze-plymouth (5.11.3-0neon) bionic; urgency=medium
 
   * New release
